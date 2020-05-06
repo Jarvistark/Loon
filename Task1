@@ -1,0 +1,13 @@
+cron "10 0 8 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东
+# > 一言
+cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Meeta/Surge/Scripting/Calendar.js,tag=一言+历史上的今天
+# > 每日一句+ 蚂蚁森林收能量
+cron "0 30 7 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js,tag=每日一句+蚂蚁森林收能量
+# > 倒数日
+# 需要自己修改节日
+cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/daysmatter.js,tag=倒数日
+# 米读
+# 打开 APP 进入`我的` -> `疯狂摇摇乐`,系统提示: `签到:获取Cookie: 成功`
+# 阅读时长获取Cookie:打开 APP 选取文章阅读， `书城` > `任意文章阅读` 等到提示获取Cookie成功即可
+cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/midu/miduSign.js,tag=米读签到
+cron "0 * * * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/midu/miduRead.js,tag=米读阅读
